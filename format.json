@@ -1,0 +1,267 @@
+{
+    "user": {
+        "id": "",
+        "email": "john@example.com",
+        "password": "hashed_password",
+        "name": "John Doe",
+        "gender": "Male",
+        "mobileNumber": "1171728822",
+        "room": {
+            "romm_no": "104",
+            "room_type": "AC",
+            "sharing_no": 5
+        },
+        "checkInOut": [
+            {}
+        ],
+        "isPresent": true,
+        "joinDate": "2025-06-01",
+        "leaveRequests": [
+            {
+                "reason": "",
+                "checkOutDate": "",
+                "checkInDate": "",
+                "approval":""
+            }
+        ],
+        "paymentBalance": 0,
+        "paymentStatus": true
+    },
+    "main": {
+        "complaints": [
+            {
+                "email": "rakeshp22052005@gmail.com",
+                "complaint": "Dustbins aren't available everywhere."
+            }
+        ],
+        "menu": {
+            "Monday": {
+                "Breakfast": "Idly",
+                "Lunch": {
+                    "Main": "Rice, Dal",
+                    "Curry": [
+                        "Aloo Kurma",
+                        "Brinjal Curry",
+                        "Mixed Vegetable Curry"
+                    ]
+                },
+                "Snacks": {
+                    "Item": "Masala Vada",
+                    "Beverage": [
+                        "Tea",
+                        "Coffee"
+                    ]
+                },
+                "Dinner": {
+                    "Main": "Rice, Sambar, Chapathi",
+                    "Curry": [
+                        "Paneer Butter Masala",
+                        "Chana Masala",
+                        "Bhindi Masala"
+                    ],
+                    "Pickle": [
+                        "Mango Pickle",
+                        "Lemon Pickle",
+                        "Gongura Pickle"
+                    ]
+                }
+            },
+            "Tuesday": {
+                "Breakfast": [
+                    "Tomato Rice",
+                    "Jeera Rice",
+                    "Lemon Rice"
+                ],
+                "Lunch": {
+                    "Main": "Rice, Dal, French Fries",
+                    "Sambar": "Vegetable Sambar"
+                },
+                "Snacks": {
+                    "Item": "Samosa",
+                    "Beverage": [
+                        "Tea",
+                        "Coffee"
+                    ]
+                },
+                "Dinner": {
+                    "Main": "Rice, Sambar",
+                    "Egg Dish": [
+                        "Boiled Eggs",
+                        "Egg Curry",
+                        "Omelette"
+                    ],
+                    "Pickle": [
+                        "Tomato Pickle",
+                        "Amla Pickle",
+                        "Lime Pickle"
+                    ]
+                }
+            },
+            "Wednesday": {
+                "Breakfast": "Chapathi",
+                "Lunch": {
+                    "Main": "Rice, Dal, Sambar",
+                    "Curry": [
+                        "Bottle Gourd Curry",
+                        "Cauliflower Curry",
+                        "Carrot Peas Masala"
+                    ]
+                },
+                "Snacks": {
+                    "Item": "Pakora",
+                    "Beverage": [
+                        "Tea",
+                        "Coffee"
+                    ]
+                },
+                "Dinner": {
+                    "Main": "Rice, Sambar, Chicken",
+                    "Side": "Potato Fry"
+                }
+            },
+            "Thursday": {
+                "Breakfast": "Uthappam",
+                "Lunch": {
+                    "Main": "Rice, Dal, Ladies Finger Fry",
+                    "Sambar": "Drumstick Sambar"
+                },
+                "Snacks": {
+                    "Item": "Murukku",
+                    "Beverage": [
+                        "Tea",
+                        "Coffee"
+                    ]
+                },
+                "Dinner": {
+                    "Main": "Rice, Sambar, Chapathi",
+                    "Curry": [
+                        "Baingan Bharta",
+                        "Capsicum Masala",
+                        "Rajma Masala"
+                    ],
+                    "Pickle": [
+                        "Ginger Pickle",
+                        "Mango Pickle",
+                        "Tomato Pickle"
+                    ]
+                }
+            },
+            "Friday": {
+                "Breakfast": [
+                    "Mysore Bonda",
+                    "Pungulu",
+                    "Puri"
+                ],
+                "Lunch": {
+                    "Main": "Rice, Dal, Sambar",
+                    "Curry": [
+                        "Paneer Tikka Masala",
+                        "Aloo Gobi",
+                        "Bhindi Fry"
+                    ]
+                },
+                "Snacks": {
+                    "Item": "Bhel Puri",
+                    "Beverage": [
+                        "Tea",
+                        "Coffee"
+                    ]
+                },
+                "Dinner": {
+                    "Main": [
+                        "Veg Fried Rice",
+                        "Egg Fried Rice"
+                    ],
+                    "Side": "Curd"
+                }
+            },
+            "Saturday": {
+                "Breakfast": "Dosa",
+                "Lunch": {
+                    "Main": "Rice, Dal, Rasam",
+                    "Fry": [
+                        "Cabbage Fry",
+                        "Carrot Fry",
+                        "Beetroot Fry"
+                    ]
+                },
+                "Snacks": {
+                    "Item": "Banana Bajji",
+                    "Beverage": [
+                        "Tea",
+                        "Coffee"
+                    ]
+                },
+                "Dinner": {
+                    "Main": "Rice",
+                    "Curry": [
+                        "Gongura Chicken",
+                        "Palak Paneer",
+                        "Dal Tadka"
+                    ]
+                }
+            },
+            "Sunday": {
+                "Breakfast": "Upma",
+                "Lunch": {
+                    "Main": "Rice, Dal, Rasam",
+                    "Pickle": [
+                        "Mango Pickle",
+                        "Garlic Pickle",
+                        "Tomato Pickle"
+                    ],
+                    "Snacks": {
+                        "Item": "Pani Puri",
+                        "Beverage": [
+                            "Tea",
+                            "Coffee"
+                        ]
+                    }
+                },
+                "Dinner": {
+                    "Main": "Rice, Sambar, Chicken Curry",
+                    "Side": "Raitha"
+                }
+            }
+        }
+    },
+    "admin": {
+        "id": "",
+        "email": "",
+        "password": "",
+        "name": "gefh",
+        "contact": "76246"
+    },
+    "security": {
+        "id": "",
+        "email": "",
+        "password": "",
+        "name": ""
+    },
+    "user funcionalities": {
+        "signup": "",
+        "signin": "",
+        "profile": "",
+        "getAdminDetails": "",
+        "room booking": "",
+        "fee payment": "",
+        "leave request": "",
+        "complaint": "",
+        "food menu": "",
+        "feedback": ""
+    },
+    "admin functionalities": {
+        "view complaints": "",
+        "view feedback": "",
+        "due alerts": "",
+        "resolve complaint": "",
+        "menu update": "",
+        "approve leave": "",
+        "add security": "",
+        "add admin": ""
+    },
+    "security functionalities": {
+        "check in": "",
+        "check out": "request accepted then only leave request from user colllection should be accepted,"
+    }
+}
